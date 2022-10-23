@@ -1,0 +1,20 @@
+module MHC
+{
+    imports
+    {
+        Base
+    }
+
+    item ManhuntCompass
+    {
+        Type                =   Normal,
+        Icon                =   mhcompass,
+        Weight              =   0.1,
+
+        StaticModel         =   compass,
+        WorldStaticModel    =   compass,
+
+        DisplayName         =   Manhunt Compass,
+        Tags                =   ManhuntCompass,
+    }
+}
